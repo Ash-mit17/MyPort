@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ashmit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Ashmit Ranjan.</h1>
+        <h2>Full Stack Web Developer / Web3</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+            <tr>
+                <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
+                        href="https://github.com/Ash-mit17"><i class="fab fa-github"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"
+                        href="https://twitter.com/RanjanAshmit"><i class="fab fa-twitter"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"
+                        href="https://www.linkedin.com/in/ashmit-ranjan-625055225/"><i class="fab fa-linkedin"></i></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>works.</h1>
+        <section>
+            <h2>Food Cart</h2>
+            <p>
+                Full Stack webapp for ordering food, both frontend and backend deployed on render cloud.
+            </p>
+            <p>
+                Features include menu display, track order history, billing, searching of food items.
+            </p>
+            <p>
+                Focused on learning context reducer, jwt, bycrypt and schema validation.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;NodeJs</div>
+                <div><i class="fas fa-circle"></i>&nbsp;React</div>
+                <div><i class="fas fa-circle"></i>&nbsp;MongoDb</div>
+            </div>
+            <button class="btn_one"><a href="https://easyfood-yotx.onrender.com/"></a>Visit</button>
+            <!-- <button class="btn_two">button 2</button> -->
+        </section>
+        <section>
+            <h2>PG Website</h2>
+            <p>
+                Freelance Project for online presence of the pg with relevant information about the rooms and
+                services provided.
+            </p>
+            <p>
+                Build the frontend and backend and deployed the project on aws.
+            </p>
+            <p>
+                Collaborated with the client to understand requirements, create wireframes, and implement responsive design
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;NodeJs</div>
+                <div><i class="fas fa-circle"></i>&nbsp;React</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Aws</div>
+            </div>
+            <button class="btn_one"><a href="https://www.srinimishambapg.in/"></a>Visit</button>
+            <!-- <button class="btn_two">button 2</button> -->
+        </section>
+    </div>
+    <div id="about_container" class="container">
+        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+        <h1>about.</h1>
+        <section>
+            <h2>about me</h2>
+            <p>
+
+                Full Stack Web Developer with a Passion for Learning and Innovation
+                I'm a motivated and versatile full stack web developer with a passion for learning new technologies and
+                pushing boundaries. I'm proficient in a variety of programming languages and frameworks, including C,
+                Java, Solidity, ReactJS, and OpenZeppelin. I'm also well-versed in tools like Git, MongoDb, AWS, and
+                Redux Toolkit.
+
+
+            </p>
+            <p>
+
+                I'm passionate about:
+
+                Building innovative and impactful web applications.
+                Contributing to the growth and development of the Web3 ecosystem.
+                Continuously learning and improving my skills to stay ahead of the curve.
+            </p>
+
+        </section>
+        <section>
+            <h2>My skills and experience include:</h2>
+            <p>
+
+
+                Full Stack Development: Building responsive and scalable web applications from scratch.
+                Web3 Development: Creating decentralized applications using Ethereum and Solidity.
+                NFT Development: Designing and deploying NFT smart contracts on the blockchain.
+                API Development: Building robust and secure APIs for various applications.
+                Cloud Computing: Utilizing AWS services for cloud-based hosting and deployment.
+                Data Structures and Algorithms (DSA): Implementing efficient algorithms to solve complex problems.
+            </p>
+        </section>
+    </div>
+    <div id="contact_container" class="container">
+        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+        <h1>contact.</h1>
+        <section>
+            <h2>contact me</h2>
+            <p>
+            <form action="mailto:ashmitranjan978@gmail.com" method="POST" enctype="text/plain" name="EmailForm">
+                <input type="text" placeholder="name" required>
+                <input type="email" placeholder="email" required><br>
+                <textarea placeholder="your message" required rows="5"></textarea><br>
+                <button class="btn_one" type="submit">send</button>
+            </form>
+            </p>
+        </section>
+    </div>
+    <!-- <div id="footer">
+        made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
+    </div> -->
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
